@@ -8,6 +8,7 @@ import ContactIMG from '../Components/assets/Contact.png'
 function Home() {
   return (
    <>
+   {/* This Assesment Task Also Deployed On Netlify with the link: https://dc-schedule.netlify.app/ */}
    <div className='schedule__parent'>
    <div className='Ssidebar__parent'>
    <Sidebar />
