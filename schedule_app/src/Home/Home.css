@@ -1,0 +1,28 @@
+.schedule__parent{
+    display: grid;
+    grid-template-columns: 13rem auto 4rem;
+    height: 100vh;
+}
+
+.Ssection__parent{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 2rem 4rem 0rem 3rem;
+}
+
+.schedule__parent__heading{
+    font-family: 'Poppins', sans-serif;
+
+    color: var(--color-h)
+}
+
+.contact__image img{
+    width: 5rem;
+    height: 5rem;
+
+    position: absolute;
+    top: 535px;
+    
+    margin-left: -2.4rem ;
+}

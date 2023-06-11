@@ -1,0 +1,67 @@
+.sidebar__parent{
+    background: #FFFFFF;
+    height: 100vh;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+
+    padding: 2rem 2rem 0 1.2rem;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.sb__heading{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    color: #323232;
+}
+.sd__list__parent ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: var(--color-td);
+}
+
+.sd__list__parent ul li{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.29);
+
+    transition: all 0.3s;
+}
+
+.sd__list__parent ul li:hover{
+    cursor: pointer;
+    color: var(--color-h);
+}
+
+.active{
+    color: var(--color-h);
+}
+
+
+.sidebar__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 500px;
+}
+
+.sf__bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    font-family: 'Lato', sans-serif;
+
+    color: var(--color-tl);
+}
+
+.sidebar__footer button{
+    font-family: 'Poppins', sans-serif;
+}
