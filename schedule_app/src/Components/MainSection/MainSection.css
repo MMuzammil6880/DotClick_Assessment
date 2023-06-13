@@ -20,9 +20,10 @@
 }
 
 .MainSection__Bottom{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    display: flex;
+    
+    justify-content: space-between;
+    
 
 }
 .MainSection__Bottom__Parent{

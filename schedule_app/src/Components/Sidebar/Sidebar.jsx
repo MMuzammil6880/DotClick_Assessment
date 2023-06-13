@@ -10,6 +10,7 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar__parent">
+      <div className='sidebar__header'>
       <div className="sb__heading">
         <h2>LODGN</h2>
       </div>
@@ -28,6 +29,7 @@ const Sidebar = () => {
             Reports
           </li>
         </ul>
+      </div>
       </div>
       <div className="sidebar__footer">
         <div>

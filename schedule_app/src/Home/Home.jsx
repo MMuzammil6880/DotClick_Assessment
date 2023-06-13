@@ -5,6 +5,7 @@ import HeaderB from '../Components/HeaderB/HeaderB';
 import MainSection from '../Components/MainSection/MainSection';
 
 import ContactIMG from '../Components/assets/Contact.png'
+
 function Home() {
   return (
    <>
